@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumu Ahmed - Portfolio</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!--For Animation-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+ 	  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <style>
+    .navbar,footer{
+      background-color: #7e0202;
+    }
+    .header 
+    {
+        height: 100vh;
+        min-height: 500px;
+        background-image: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('header1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        color: white;
+    }
+    
+    h2{
+        color: red;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    .lead{
+      font-weight: 200;
+  font-size: calc(20px + (45 - 20) * ((50vw - 300px) / (1600 - 300)));
+    }
+    #main{
+      font-size: calc(30px + (120 - 40) * ((100vw - 300px) / (1600 - 300)));
+  font-weight: bold;
+  line-height: 1.7;
+  margin-bottom: 25px;
+  color: inherit;
+
+        animation-name: floating;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: ease-in-out;
+    }
+    @keyframes floating
+    {
+			0% {transform: translate(0, 0px);}
+			50% {transform: translate(0, 15px);}
+			100% {transform: translate(0, -0px);}
+		}
+    #summary{
+      font-size: 20px;
+      font-weight:bold;
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation Bar -->
+  <nav class="navbar navbar-expand-lg navbar-dark px-md-5">
+    <a class="navbar-brand" href="#">Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#summary">Summary</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#qualifications">Qualifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#experience">Experience</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#certifications">Certifications</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  
+  <!--Header Section-->
+  <header class="header">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-12 text-center">
+          <h1 class="fw" id="main">Sumu Ahmed</h1>
+          <p class="lead">Email : sumuahmed999@gmail.com</p>
+          <p class="lead">Phone : +91 8753911945</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Summary Section -->
+  <section id="summary" class="p-5 bg-light">
+    <div class="container" data-aos="zoom-in-up">
+      <h2 class="text-center">Summary</h2>
+      <p class="text-justify">
+        I am a skilled and passionate web developer and designer hailing from Guwahati, Assam. With great enthusiasm, I present my portfolio, which serves as a testament to my expertise in crafting visually stunning and functional websites.Throughout my career, I have devoted significant time and effort to refining my skills in web development and design. This journey has cultivated a deep passion within me for collaborating with others and implementing innovative ideas and creative concepts.
+      </p>
+    </div>
+  </section>
+
+  <!-- Qualifications Section -->
+  <div class="row">
+  <div class="col-md-6 px-5">
+  <section id="qualifications" class="py-5" data-aos="zoom-in-up">
+    <div class="container">
+      <h2 class="text-center">Qualifications</h2>
+      <div class="card-body">
+        <h6 class="subtitle text-danger">2022 - Present</h6>
+        <h6><b>Masters of Computer Application</b></h6>
+        <P class="subtitle">Girijananda Chowdhury University</P>
+        <hr>
+        <h6 class="subtitle text-danger">2016 - 2019</h6>
+        <h6><b>Bachelor of Computer Application</b></h6>
+        <P class="subtitle">Kaliabor College</P>
+        <hr>
+        <h6 class="subtitle text-danger">2013 - 2016</h6>
+        <h6><b>Higher Secondary (Science)</b></h6>
+        <P class="subtitle">Kaliabor College</P>
+
+    </div>
+    </div>
+  </section>
+</div>
+  <!-- Experience Section -->
+  <div class="col-md-6 px-5">
+  <section id="experience" class="py-5 bg-white" data-aos="zoom-in-up">
+    <div class="container">
+      <h2 class="text-center">Experience</h2>
+      
+      <div class="card-body" >
+        <h6 class="subtitle text-danger">2019 - 2022</h6>
+        <P class="title"><b>IT Faculty</b></P>
+        <P class="subtitle line-spacing">Vintage IT Academy</P>
+        <p>Kaliabor,Nagaon</p>
+        
+        <hr>
+        <h6 class="subtitle text-danger">2018 - 2019</h6>
+        <P class="title"><b>Computer Operator</b></P>
+        <P class="subtitle">Mahadev Multisolutions,Kaliabor</P>
+        </div>
+      </div>
+    </div>
+  </section>
+</div>
+</div>
+<div class="row">
+    <div class="col-md-6 px-5">
+  <!-- Certifications Section -->
+  <section id="certifications" class="py-5 bg-light" data-aos="zoom-in-up">
+    <div class="container">
+      <h2 class="text-center">Certifications</h2>
+      <div class="card-body">
+        <h6 class="text-danger"><b>React.Js</b></h6>
+        <P class="subtitle">LetsUpgrade</P>
+        <P class="subtitle">Issued May 2023</P>
+        <hr>
+        <h6 class="text-danger"><b>Core PHP</b></h6>
+        <P class="subtitle">LearnVern</P>
+        <P class="subtitle">Issued May 2022</P>
+        <hr>
+        <h6 class="text-danger"><b>Responsive Web Design</b></h6>
+        <P class="subtitle">SoloLearn</P>
+        <P class="subtitle">Issued July 2021</P>
+        <hr>
+        <h6 class="text-danger"><b>Web Designing (Advanced)</b></h6>
+        <P class="subtitle">Study Section</P>
+        <P class="subtitle">Issued July 2021</P>
+        <hr>
+        <h6 class="text-danger"><b>National Level Quiz on Python Programming</b></h6>
+        <P class="subtitle">Sigma University India</P>
+        <P class="subtitle">Issued April 2021</P>
+        <hr>
+        <h6 class="text-danger"><b>Javascript</b></h6>
+        <P class="subtitle">Udemy</P>
+        <P class="subtitle">Issued May 2021</P>
+        <hr>
+        <h6 class="text-danger"><b>Frontend Fundamentals</b></h6>
+        <P class="subtitle">Pirple</P>
+        <P class="subtitle">Issued April 2020</P>
+    </div>
+    </div>
+  </section>
+</div>
+
+<div class="col-md-6 px-5">
+  <!-- Skills Section -->
+  <section id="skills" class="py-5 bg-light" data-aos="zoom-in-up">
+    <div class="container">
+      <h2 class="text-center">Skills</h2>
+      <div class="card-body pb-2">
+        <h6>HTML5</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 90%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6>CSS3</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 80%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6>JavaScript</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6>PHP</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6>MySQL</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 40%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6>Bootstrap</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 70%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6>React.Js</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 60%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6>Adobe Photoshop</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+         <h6>CorelDraw v20</h6>
+         <div class="progress mb-3">
+             <div class="progress-bar bg-danger" role="progressbar" style="width: 78%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+         </div>
+     </div>
+    </div>
+  </section>
+</div>
+</div>
+
+  <!-- Footer Section -->
+  <footer class="text-white text-center py-2" id="footer">
+    <p>&copy; 2023 Sumu Ahmed </p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script>
+    let $root = $('html, body');
+    $('a[href^="#"]').click(function() {
+        let href = $.attr(this, 'href');
+        $root.animate({
+          scrollTop: $(href).offset().top
+        }, 500, function() {
+          window.location.hash = href;
+        });
+        return false;
+      });
+  </script>
+   <script>
+    AOS.init({
+      duration: 800, 
+    });
+  </script>
+</body>
+</html>
